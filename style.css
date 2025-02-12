@@ -1,0 +1,91 @@
+
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+    text-align: center;
+    padding-top: 1rem;
+}
+h2{
+    text-align: center;
+    padding-bottom: 0.75rem;
+}
+.general{
+    height: 4.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    color: white;
+}
+.c-black{
+    color: black;
+}
+.div1{
+    background-color: red;
+    justify-content: start;
+}
+.div2{
+    background-color: blue;
+    justify-content: center;
+}
+.div3{
+    background-color: yellow;
+    justify-content: end;
+}
+.div4{
+    background-color: green;
+    align-items: start;
+}
+.div5{
+    background-color: orange;
+    align-items: center;
+}
+.div6{
+    background-color: violet;
+    align-items: end;
+}
+.div1-1{
+    background-image: linear-gradient(66deg, red, green);
+    justify-content: start;
+    align-items: start;
+}
+.div1-2{
+    background-image: linear-gradient(66deg, red, orange);
+    justify-content: start;
+    align-items: center;
+}
+.div1-3{
+    background-image: linear-gradient(66deg, red, violet);
+    justify-content: start;
+    align-items: end;
+}
+.div2-1{
+    background-image: linear-gradient(66deg, blue, green);
+    justify-content: center;
+    align-items: start;
+}
+.div2-2{
+    background-image: linear-gradient(66deg, blue, orange);
+    justify-content: center;
+    align-items: center;
+}
+.div2-3{
+    background-image: linear-gradient(66deg, blue, violet);
+    justify-content: center;
+    align-items: end;
+}
+.div3-1{
+    background-image: linear-gradient(66deg, yellow, green);
+    justify-content: end;
+    align-items: start;
+}
+.div3-2{
+    background-image: linear-gradient(66deg, yellow, orange);
+    justify-content: end;
+    align-items: center;
+}
+.div3-3{
+    background-image: linear-gradient(66deg, yellow, violet);
+    justify-content: end;
+    align-items: end;
+}
